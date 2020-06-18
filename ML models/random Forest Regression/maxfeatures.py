@@ -94,5 +94,5 @@ def maxfeatures(X_train, X_test, y_train, y_test):
     plt.legend(loc="center right")
     plt.title('max features (Random Forest Regression)')
     plt.xlabel('max features')
-    plt.ylabel('RMS error')
+    plt.ylabel('RMS error m\u00b3/hr')
     plt.show()

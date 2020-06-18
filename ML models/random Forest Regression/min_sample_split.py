@@ -80,7 +80,7 @@ def min_sample_split(X_train,X_test,y_train,y_test):
     plt.legend(loc="center right")
     plt.title('min_sample_split (Random Forest Regression)')
     plt.xlabel('min_sample_split')
-    plt.ylabel('RMS error')
+    plt.ylabel('RMS error m\u00b3/hr')
     plt.show()
     
 

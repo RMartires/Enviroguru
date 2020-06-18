@@ -14,8 +14,8 @@ from math import sqrt
 from sklearn.neural_network import MLPRegressor
 
 
-dataset = pd.read_csv('test.csv')
-X = dataset.iloc[:, 1:5].values
+dataset = pd.read_csv('test5.csv')
+X = dataset.iloc[:,1:5].values
 y = dataset.iloc[:, 0].values
 from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 0)

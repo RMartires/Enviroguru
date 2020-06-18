@@ -63,5 +63,5 @@ def N_est(X_train, X_test, y_train, y_test):
     plt.plot(N_est,rms_train, color = 'red',label="train")
     plt.title('N_estimator (Random Forest Regression)')
     plt.xlabel('n estimator')
-    plt.ylabel('RMS error')
+    plt.ylabel('RMS error m\u00b3/hr')
     plt.show()

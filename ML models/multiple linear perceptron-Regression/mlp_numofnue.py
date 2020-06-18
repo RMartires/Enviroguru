@@ -61,7 +61,7 @@ plt.plot(hd,rms_test, color = 'red',label="train")
 plt.legend(loc="center right")
 plt.title('number of neurons (MLP-regression)')
 plt.xlabel('number of neurons')
-plt.ylabel('RMS error')
+plt.ylabel('RMS error m\u00b3/hr')
 plt.show()
    
 

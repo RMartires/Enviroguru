@@ -39,7 +39,7 @@ color=np.zeros((sizex,800),dtype='int32')
 for i in range(1,sizex):
     for j in range(1,800):
         arr[i][j]=conc(j,0,i,hs,z0)
-
+        
 l1=333397.0790295258566
 l2=33333.97079029525857
 l3=8333.492697573814642
@@ -74,5 +74,6 @@ for i in range(1,2*H):
 print(color)
 
 plt.imshow(color, cmap='gray', vmin=0, vmax=255)
-plt.xlabel("distance")
-plt.ylabel("height")
+plt.title("Gaussian air dispersion model")
+plt.xlabel("distance m")
+plt.ylabel("height m")

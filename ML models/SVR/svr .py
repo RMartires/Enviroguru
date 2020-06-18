@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # Importing the dataset
-dataset = pd.read_csv('test.csv')
+dataset = pd.read_csv('test5.csv')
 X = dataset.iloc[:,1:5].values
 y = dataset.iloc[:,0].values
 #X = X.reshape(-1,1);
@@ -53,10 +53,10 @@ for j in kr:
 
 
 
-plt.plot([1,2,3],rms_train, color = 'blue',label="test")
-plt.plot([1,2,3],rms_test, color = 'red',label="train")
+plt.plot([1,2,3],rms_train, color = 'blue',label="train")
+plt.plot([1,2,3],rms_test, color = 'red',label="test")
 plt.legend(loc="center right")
 plt.title('Kernel (SVR)')
 plt.xlabel('kernel [linear,rbf, sigmoid,]')
-plt.ylabel('RMS error')
+plt.ylabel('RMS error m\u00b3/hr')
 plt.show()
